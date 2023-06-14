@@ -37,7 +37,15 @@ a {
     justify-content: space-between;
 }
 /* -0-----------------header------------ */
-.header {
+
+.navbar-fix {
+    background-color: #e6f0ff;
+    padding-top: 18px;
+    position: sticky;
+    top: -18px;
+    z-index: 1;
+}
+.wrap {
     position: relative;
     background-color: #e6f0ff;
     height: 100vh;
@@ -45,7 +53,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 20px 0;
 }
 
 .navbar ul {
@@ -78,7 +87,7 @@ a {
 }
 .hero-text {
     max-width: 55.2%;
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .hero-text .sub-title {
     font-size: 1.8rem;
